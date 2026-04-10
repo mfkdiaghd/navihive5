@@ -1,0 +1,24 @@
+{
+  "name": "navihive9",
+  "compatibility_date": "2025-01-01",
+  "main": "dist/navihive/index.js",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // 认证配置
+    "AUTH_ENABLED": "true",
+    "AUTH_REQUIRED_FOR_READ": "false",
+    "AUTH_USERNAME": "mfkdiaghd",
+    "AUTH_PASSWORD": "sr19843927",
+    "AUTH_SECRET": "mfkdiaghd"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navigation-db2",
+      "database_id": "6eb2465d-0547-4ddc-93f4-6b3fab7d4c5c"
+    }
+  ]
+}
